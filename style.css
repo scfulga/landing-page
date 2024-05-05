@@ -1,4 +1,6 @@
 body{
+    min-height: 100vh;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -55,13 +57,14 @@ li{
     background-color: #3882F6;
     border-radius: 10px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 
 .sign2{
     border-style: solid;
-    border-color: white; 
-    color: #F9FAF8;
+    border-color: white;
+    border-width: 2px;
 }
 
 img{
@@ -117,19 +120,19 @@ img{
 .quotecnt{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 1000px;
     height: 200px;
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 200;
     font-style: italic;
     color: #1F2937;
 }
 .quoteaut{
     display: flex;
     justify-content: flex-end;
+    font-size: 32px;
     font-weight: 900;
     color: #1F2937;
-    
 }
 
 .call{
@@ -154,12 +157,23 @@ img{
     display: flex;
     flex-direction: column;
 }
-#callmtxt{
-    
+#callmtxt{ 
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
 }
 #callmtxt, .callstxt{
     margin-left: 1em;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100px;
+    background-color: #1F2937 ;
+    color: #E5E7EB;
+    font-size: 18px;
 }
