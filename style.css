@@ -129,7 +129,7 @@ li{
     width: 1000px;
     height: 200px;
     font-size: 36px;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
@@ -152,7 +152,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6em;
+    gap: 10em;
     display: flex;
     width: 1000px;
     height: 150px;
@@ -183,3 +183,11 @@ li{
     color: #E5E7EB;
     font-size: 18px;
 }
+a{
+    
+    color: #F9FAF8;
+    text-decoration: none;
+}
+ a:hover {
+      color: #c3c3c3;
+    }
