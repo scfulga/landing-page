@@ -21,6 +21,8 @@ li{
 .logo{
     display: flex;
     font-weight: bold;
+    width: 100px;
+    height: 100px;
 }
 
 .hstxt, .callstxt{
