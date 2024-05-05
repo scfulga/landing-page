@@ -57,16 +57,11 @@ li{
     font-weight: bold;
 }
 
-.push-sign2{
-    display: flex;
-    width: 130px;
-    justify-content: flex-end;
-    margin-right: 3em;
-    margin-bottom: 3em;
-}
+
 .sign2{
     border-style: solid;
-    border-color: white;
+    border-color: white; 
+    color: #F9FAF8;
 }
 
 img{
@@ -144,17 +139,23 @@ img{
     width: auto;
     height: 400px;
 }
-.callcnt{
+.callbox{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 6em;
     display: flex;
     width: 1000px;
     height: 150px;
     background-color: #3882F6;
     border-radius: 10px;
 }
+.callcnt{
+    display: flex;
+    flex-direction: column;
+}
 #callmtxt{
+    
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
