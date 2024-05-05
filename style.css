@@ -21,7 +21,7 @@ li{
     font-weight: bold;
 }
 
-.hstxt{
+.hstxt, .callstxt{
     font-size: 18px;
     color: #E5E7EB
 }
@@ -46,7 +46,7 @@ li{
     height: 300px;
     width: 400px;
 }
-.sign{
+.sign, .sign2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,6 +56,19 @@ li{
     border-radius: 10px;
     font-weight: bold;
 }
+
+.push-sign2{
+    display: flex;
+    width: 130px;
+    justify-content: flex-end;
+    margin-right: 3em;
+    margin-bottom: 3em;
+}
+.sign2{
+    border-style: solid;
+    border-color: white;
+}
+
 img{
     width: 400px;
     height: 400px;
@@ -96,4 +109,56 @@ img{
     border-style: solid;
     border-radius: 10px;
     border-color: #3882F6;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+    background-color: #E5E7EB;
+}
+.quotecnt{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 200px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.quoteaut{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    color: #1F2937;
+    
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+}
+.callcnt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+#callmtxt{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+#callmtxt, .callstxt{
+    margin-left: 1em;
 }
